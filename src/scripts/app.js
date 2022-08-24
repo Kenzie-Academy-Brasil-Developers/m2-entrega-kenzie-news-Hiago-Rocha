@@ -24,17 +24,6 @@ function listaNoticias(noticiasApi){
 
 listaNoticias(noticiasApi)
 
-/*
-    <li>
-        <img src="imagens/image 3.png" alt="">
-        <div>
-            <span>Négocios</span>
-            <h2>Silmara Souza é a nova CMO da Kenzie Academy Brasil</h2>
-            <p>A executiva acumula 15 anos de experiência em branding e comunicação digital</p>
-            <a href="">Fonte: Metrópoles</a>
-        </div>
-    </li>
-*/
 function criaNoticia(noticia){
     const tagLi   = document.createElement("li")
     const tagImg  = document.createElement("img")
