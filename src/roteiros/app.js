@@ -7,6 +7,8 @@ async function getterAwait(){
     return noticias
 }
 
+
+
 const noticiasApi = await getterAwait()
 
 console.log(noticiasApi)
@@ -46,7 +48,7 @@ function criaNoticia(noticia){
     tagDiv.appendChild(tagSpan)
     tagDiv.appendChild(tagH2)
     tagDiv.appendChild(tagP)
-    tagDiv.appendChild(tagA)
+    tagDiv.appndChild(tagA) 
 
     return tagLi
 }
