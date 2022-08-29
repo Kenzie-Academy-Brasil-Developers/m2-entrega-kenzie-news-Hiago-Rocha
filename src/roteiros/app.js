@@ -48,7 +48,7 @@ function criaNoticia(noticia){
     tagDiv.appendChild(tagSpan)
     tagDiv.appendChild(tagH2)
     tagDiv.appendChild(tagP)
-    tagDiv.appndChild(tagA) 
+    tagDiv.appendChild(tagA) 
 
     return tagLi
 }
